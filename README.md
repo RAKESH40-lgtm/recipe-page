@@ -24,4 +24,4 @@ Using this i have recap my basics about basic styling with box model .
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/RAKESH40-lgtm)
+- Frontend Mentor - [Rakesh](https://www.frontendmentor.io/profile/RAKESH40-lgtm)
