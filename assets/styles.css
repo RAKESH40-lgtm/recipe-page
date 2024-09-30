@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+.container {
+    width: 550px;
+    border: 1px solid black;
+    background-color: white;
+    /* box-shadow: 0px 1px 25px black; */
+    margin: 14px auto;
+    padding: 17px 113px 63px 57px;
+    border-radius: 12px;
+}
+
+img {
+    width: 419px;
+    height: 114px;
+    border-radius: 12px;
+}
+
+.header,
+p {
+    margin: 4px;
+    width: 419px;
+}
+
+.prepare-recipe {
+    width: 419px;
+    background-color: bisque;
+    padding: 7px 50px 10px 21px;
+    margin-top: 21px;
+    margin-bottom: 31px;
+    border-radius: 13px;
+}
+
+.prepare-recipe-title {
+    margin-left: -4px;
+}
+
+ol li {
+    margin: 2px 27px;
+}
+
+.prepare-recipe li {
+    margin: 2px 27px;
+}
+
+ul li {
+    list-style: circle;
+}
+
+ul p {
+    color: purple
+}
+
+.content-title {
+    color: burlywood;
+    font-size: 30px;
+
+}
+
+.ingredients li {
+    margin: 2px 27px;
+}
+
+.contents .content-title {
+    margin-left: -4px;
+}
+
+td {
+    border-bottom: 1px solid black;
+    padding: 10px 91px 10px 61px;
+    text-align: left;
+}
+@media (max-width: 375px) {
+    .container {
+        width: 100%; /* Full width */
+        padding: 10px; /* Reduced padding */
+    }
+
+    img {
+        width: 100%; /* Responsive image */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .header,
+    p,
+    .prepare-recipe,
+    .content-title {
+        width: auto; /* Allow full width */
+        margin: 0; /* Reset margins for better fit */
+        font-size: 18px; /* Smaller font size for mobile */
+    }
+
+    .prepare-recipe {
+        padding: 10px; /* Reduced padding */
+    }
+
+    ol li,
+    .prepare-recipe li {
+        margin: 2px 0; /* Adjusted margin for lists */
+    }
+
+    td {
+        padding: 5px; /* Reduced padding for table data */
+        text-align: left; /* Maintain alignment */
+    }
+}
